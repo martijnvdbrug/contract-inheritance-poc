@@ -1,0 +1,20 @@
+{
+  "name": "contract-inheritance-poc",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn ts-node ./src/index.ts",
+    "debug": "yarn node --inspect -r ts-node/register ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.6",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "shortid": "^2.2.14",
+    "sqlite": "^3.0.3",
+    "typeorm": "^0.2.15"
+  }
+}
